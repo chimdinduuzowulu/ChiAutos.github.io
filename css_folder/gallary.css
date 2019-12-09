@@ -1,0 +1,665 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+nav {
+     background-color: black !important;
+     display: flex;
+     flex-wrap: wrap;
+     color: white !important;
+     font-weight: bold !important;
+}
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+
+
+    justify-content: flex-start;
+    text-transform: uppercase;
+    /* flex-direction: column; */
+}
+
+nav ul li {
+    list-style: none;
+    margin: 20px;
+    position: relative;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    right: 10px;
+}
+
+nav ul li a:hover {
+    list-style: none;
+    /* background-color: white; */
+    opacity: 0.2;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a.rightnav {
+    text-align: right;
+}
+/* after nav image styling */
+.image {
+    height: 500px;
+    width: 100%;
+    background-image: url(../images/benz-cars/carten.JPG);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: black;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-weight: bolder;
+    font-size: 20px;
+    text-shadow: 2px 3px 4px white;
+}
+.image h1{width: auto;height: auto;margin: auto;transform: translateY(260px);}
+/* our gallary styling */
+.our_gallary
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+    /* background-color: black; */
+}
+.our_gallary >div{height: auto;width: auto;overflow: hidden;padding: 2px;}
+.our_gallary >div img{height: 600px;width: 700px;}
+.our_gallary >div img
+{
+    height: 750px;
+    width: 100%;
+    /* margin: auto; */
+ }
+.our_gallary >div img:hover 
+    {
+        opacity: 0.8; 
+         transform: skewY(2deg);
+    }  
+/* footer styling */
+.footer {
+    height: 500px;
+    width: 100%;
+    /* background-color: rgba(17, 15, 15, 0.7); */
+    background-image: url(../images/car/carthree.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    display: flex;
+}
+
+.footer hr {
+    background-color: white;
+    border-width: px;
+}
+
+.footer h1 {
+    text-transform: uppercase;
+}
+
+.footer>div {
+    height: auto;
+    width: 30%;
+    margin: 20px;
+    color: white;
+}
+
+.brands .im {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.brands img {
+    height: 60px;
+    width: 25%;
+    margin: 5px;
+    border-radius: 40px;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.brands img:hover {
+    opacity: 0.5;
+    height: 80px;
+    width: 30%;
+    cursor: pointer;
+}
+
+.text {
+    color: white;
+    text-align: center;
+}
+.text ul li {
+    list-style: none;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 12px;
+}
+/* copyright */
+.copyright {
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    background-color: black;
+}
+
+.copyright ul {
+    display: flex;
+    text-align: center;
+}
+
+.copyright ul li {
+    list-style: none;
+    margin: 15px;
+    height: 50px;
+    width: 50px;
+}
+
+.contact ul li {
+    list-style: none;
+    padding: 10px;
+    margin: 4px;
+}
+
+.contact ul li a {
+    margin: 4px;
+}
+
+i {
+    color: white
+}
+
+.copyright>p {
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+
+.copyright ul li a:hover i {
+    background-color: white;
+    border-radius: 30px;
+    padding: 5px;
+    color: black;
+}
+@media screen and (max-width:1129px) {
+    * {
+        box-sizing: border-box;
+    }
+.our_gallary {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.our_gallary>div {
+    width: 100%;
+    height: auto;
+}
+
+.our_gallary>div img {
+    width: auto;
+    height: 500px;
+}
+    
+    .footer {
+        height: auto;
+        width: 100%;
+        background-image: url(../images/car/carthree.JPG);
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: 20px;
+        font-size: 20px;
+    }
+
+    .footer hr {
+        background-color: white;
+        width: 100%;
+        border-width: 1px;
+    }
+
+    .footer>div {
+        height: auto;
+        max-width: 100%;
+        margin: 2px;
+        color: white;
+        text-align: center;
+    }
+
+    .footer h1 {
+        text-transform: uppercase;
+        font-size: 20px;
+        color: black;
+        text-align: center;
+        width: 100%;
+    }
+
+    .brands .im {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        height: auto;
+        width: 100%;
+    }
+
+    .brands .im img {
+        height: 40px;
+        width: 25%;
+        margin: 5px;
+        border-radius: 40px;
+        margin-top: 10px;
+        padding-top: 10px;
+    }
+
+    .text {
+        color: white;
+        text-align: center;
+    }
+
+    .text ul li {
+        list-style: none;
+        font-size: 15px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding: 12px;
+    }
+
+    /* copyright */
+    .copyright {
+        height: auto;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        bottom: 0px;
+        background-color: black;
+        flex-wrap: wrap;
+    }
+
+    .copyright ul {
+        display: flex;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+
+    .copyright ul li {
+        list-style: none;
+        margin: 15px;
+        height: 50px;
+        width: 50px;
+    }
+
+    .contact ul li {
+        list-style: none;
+        padding: 10px;
+        margin: 4px;
+    }
+
+    .contact ul li a {
+        margin: 4px;
+    }
+
+    i {
+        color: white;
+    }
+
+    .h {
+        width: 100%;
+        height: auto;
+    }
+
+    .h .hey {
+        width: 20%;
+        margin-left: 200px;
+    }
+
+    .copyright>p {
+        margin: auto;
+        width: 100%;
+        text-align: center;
+        color: white;
+    }
+}
+
+@media screen and (max-width:768px) {
+    * {
+        box-sizing: border-box;
+    }
+
+.our_gallary{width: 100%;height: auto;display: flex;flex-wrap: wrap;}
+.our_gallary>div{width: 100%;height: auto;}
+.our_gallary >div img{width: auto;height: 400px;}
+    .footer {
+        height: auto;
+        width: 100%;
+        background-image: url(../images/car/carthree.JPG);
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: 20px;
+        font-size: 20px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer hr {
+        background-color: white;
+        width: 100%;
+        border-width: 1px;
+    }
+
+    .footer>div {
+        height: auto;
+        width: 100%;
+        margin: 2px;
+        color: white;
+        text-align: center;
+    }
+
+    .footer h1 {
+        text-transform: uppercase;
+        font-size: 20px;
+        color: black;
+        text-align: center;
+        width: 100%;
+    }
+
+    .brands .im {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        height: auto;
+        width: 100%;
+    }
+
+    .brands .im img {
+        height: 40px;
+        width: 25%;
+        margin: 5px;
+        border-radius: 40px;
+        margin-top: 10px;
+        padding-top: 10px;
+    }
+
+    .text {
+        color: white;
+        text-align: center;
+    }
+
+    .text ul li {
+        list-style: none;
+        font-size: 15px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding: 12px;
+    }
+
+    /* copyright */
+    .copyright {
+        height: auto;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        bottom: 0px;
+        background-color: black;
+        flex-wrap: wrap;
+    }
+
+    .copyright ul {
+        display: flex;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+
+    .copyright ul li {
+        list-style: none;
+        margin: 15px;
+        height: 50px;
+        width: 50px;
+    }
+
+    .contact ul li {
+        list-style: none;
+        padding: 10px;
+        margin: 4px;
+    }
+
+    .contact ul li a {
+        margin: 4px;
+    }
+
+    i {
+        color: white;
+    }
+
+    .h {
+        width: 100%;
+        height: auto;
+    }
+
+    .h .hey {
+        width: 20%;
+        margin-left: 200px;
+    }
+
+    .copyright>p {
+        margin: auto;
+        width: 100%;
+        text-align: center;
+        color: white;
+    }
+}
+
+/* view for smaller phones */
+@media screen and (max-width:350px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    .shake {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .news-letter .Newstext {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .contact {
+        display: flex;
+        width: 95%;
+        margin: auto;
+        max-width: 100%;
+        flex-wrap: wrap;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        text-align: center;
+        overflow: hidden;
+    }
+
+    .contact>div {
+        margin: 10px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .contact_form {
+        height: auto;
+        width: inherit;
+        width: 100%;
+    }
+
+    .contact_form input,
+    textarea {
+        width: 100%;
+        margin: auto;
+        height: 50px;
+        background-color: rgba(230, 238, 245, 0.863);
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .contact_form #submit {
+        background-color: rgb(194, 104, 44);
+        color: white;
+        text-transform: uppercase;
+        font-weight: bolder;
+    }
+
+    .contact_text {
+        line-height: 15px;
+        width: 100%;
+        height: auto;
+        background-color: blueviolet;
+        text-align: center;
+    }
+
+    .contact_text ul {
+        display: flex;
+        text-align: center;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .contact_text ul li {
+        height: 50px;
+        list-style: none;
+        width: 50px;
+        text-align: center;
+        border-radius: 100%;
+        line-height: 5px;
+        background-color: rgb(184, 195, 204);
+    }
+
+    .contact_text ul li:hover {
+        background-color: black;
+    }
+
+    .footer {
+        height: auto;
+        width: 100%;
+        background-image: url(../images/car/carthree.JPG);
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: 20px;
+        overflow: hidden;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer>div {
+        height: auto;
+        width: 100%;
+        color: white;
+    }
+
+    .footer hr {
+        background-color: white;
+        border-width: 1px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer h1 {
+        text-transform: uppercase;
+        font-size: 20px;
+        color: black;
+        text-align: center;
+    }
+
+    .footer .brands {
+        width: 100%;
+        height: auto;
+    }
+
+    .footer .text ul li {
+        text-align: center;
+        width: 100%;
+    }
+
+    .brands .im {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        height: auto;
+    }
+
+    .brands img {
+        height: 60px;
+        width: 25%;
+        margin: 5px;
+        border-radius: 40px;
+        margin-top: 10px;
+        padding-top: 10px;
+    }
+
+    .text {
+        color: white;
+        text-align: center;
+    }
+
+    .text ul li {
+        list-style: none;
+        font-size: 15px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding: 12px;
+    }
+
+    /* copyright */
+    .copyright {
+        height: auto;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        background-color: black;
+        flex-wrap: wrap;
+    }
+
+    .copyright ul {
+        display: flex;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+
+    .copyright ul li {
+        list-style: none;
+        margin: 15px;
+        height: 50px;
+        width: 50px;
+    }
+
+    .contact ul li {
+        list-style: none;
+        padding: 10px;
+        margin: 4px;
+    }
+
+    .contact ul li a {
+        margin: 4px;
+    }
+
+    i {
+        color: white
+    }
+
+    .copyright>p {
+        margin: auto;
+        text-align: center;
+        color: white;
+    }
+}

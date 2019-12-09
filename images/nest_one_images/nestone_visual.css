@@ -1,0 +1,17 @@
+.logo{
+    margin-top: 0px;
+    color: gray;
+    padding-top: 0px;
+    max-width: width 1px;
+    width: 90%;
+}
+
+.nav_bar
+{
+    display: flex;
+    background-color: rgb(39, 122, 39);
+    text-align: center;
+    margin: auto;
+    width: 8%;
+
+}

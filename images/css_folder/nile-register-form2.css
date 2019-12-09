@@ -1,0 +1,40 @@
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../images/apply.jpg);
+    background-attachment: fixed;
+    background-position: contain;
+    background-size: cover;
+
+}
+.container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 20%;
+    height: auto;
+    color: white;
+    font-size:30px;
+    width: 90%;
+    max-width: 100%;
+
+}
+.one,input,option,select {
+    width: 100%;
+    border-radius: 60px;
+    box-shadow: 5px 10px 5px rgb(189, 157, 89);
+    text-align: center;
+}
+p{text-align: center;}
+.not{
+    width: auto;
+    text-align: left;
+    box-shadow: 1px 1px 1px rgb(73, 129, 202);
+}
+#turn-in {
+    background-color: rgb(59, 247, 52);
+    color: white;
+    box-shadow: 5px 10px 5px white;
+}

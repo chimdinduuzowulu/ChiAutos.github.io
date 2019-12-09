@@ -1,0 +1,93 @@
+ body {
+     /* C: \Users\chimi\Desktop\others\nest_one_hub */
+
+     background: url(C:/Users/chimi/Desktop/others/nest_one_hub/holder.jpg);
+     position: relative;
+     background-size: cover;
+     background-position: center;
+     background-attachment: fixed;
+     background-repeat: repeat;
+
+ }
+
+ #container {
+     max-width: 600px;
+     margin: auto;
+     color: white;
+     border-radius: 3px;
+     background-color: blue;
+     text-align: center;
+     transform: translateY(200px);
+     padding: 20px;
+     margin-bottom: 90px; }
+
+ form p {
+     padding: 10px;
+     margin: 10px;
+ }
+
+ input {
+     background-color: white;
+     color: black;
+     box-sizing: border-box;
+     max-width: 80%;
+     margin: auto;
+ }
+
+ form p input {
+     padding: 10px;
+ }
+
+ .gen {
+     width: 900px;
+     border: none;
+     border-radius: 5px;
+ }
+
+ .log {
+     width: 900px;
+     border: none;
+     border-radius: 5px;
+ }
+
+ #reg,
+ #reg2 {
+     color: black;
+     font-size: 17px;
+     font-weight: bold;
+ }
+
+ #login,
+ #login2 {
+     background-color: rgb(18, 230, 18);
+     color: white;
+ }
+
+ #reg,
+ #reg2 {
+     color: black;
+     text-decoration: none;
+ }
+
+ #create_form {
+     display: none;
+ }
+
+ #userpassword,
+ #username {
+     font-size: 20px;
+ }
+ .btn-danger{
+    background-color: orange;
+} .btn-danger:hover{
+    background-color:black;
+}
+.col {
+    background-color: grey;
+    border: 2px solid black;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+

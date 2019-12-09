@@ -1,0 +1,481 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+nav {
+     background-color: black !important;
+     display: flex;
+     flex-wrap: wrap;
+     color: white !important;
+     font-weight: bold !important;
+}
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    text-transform: uppercase;
+    /* flex-direction: column; */
+}
+nav ul li {
+    list-style: none;
+    margin: 20px;
+    position: relative;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    right: 10px;
+}
+nav ul li a:hover {
+    list-style: none;
+    /* background-color: white; */
+    opacity: 0.2;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+nav ul li a.rightnav {
+    text-align: right;
+}
+/* body styling */
+.first
+{
+    width: 100%;
+    height: auto;
+}
+.all >div{
+    width: 100%;
+    height: auto;
+}
+#bt{width:50%;margin: auto;margin-left:500px;}
+/* footer styling */
+.footer {
+    height: 500px;
+    width: 100%;
+    /* background-color: rgba(17, 15, 15, 0.7); */
+    background-image: url(../images/car/carthree.JPG);
+    background-size: cover;
+    margin-top: 20px;
+    display: flex;
+}
+.affect{
+    background-image: url(../images/benz-cars/1.jpg);
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* color: white; */
+    margin: 20px 0 20px 0;
+}
+video{
+    width: inherit;
+    height: 500px;
+    background-color: black;
+}
+.footer hr {
+    background-color: white;
+    border-width: px;
+}
+.footer h1 {
+    text-transform: uppercase;
+}
+.footer>div {
+    height: auto;
+    width: 30%;
+    margin: 20px;
+    color: white;
+}
+.brands .im {
+    display: flex;
+    flex-wrap: wrap;
+}
+.brands img {
+    height: 60px;
+    width: 25%;
+    margin: 5px;
+    border-radius: 40px;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+.brands img:hover {
+    opacity: 0.5;
+    height: 80px;
+    width: 30%;
+    cursor: pointer;
+}
+.text {
+    color: white;
+    text-align: center;
+}
+.text ul li {
+    list-style: none;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 12px;
+}
+/* copyright */
+.copyright {
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    background-color: black;
+}
+.copyright ul {
+    display: flex;
+    text-align: center;
+}
+.copyright ul li {
+    list-style: none;
+    margin: 15px;
+}
+.contact ul li {
+    list-style: none;
+    padding: 10px;
+    margin: 4px;
+}
+.contact ul li a {
+    margin: 4px;
+}
+i {
+    color: white
+}
+.copyright>p {
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+.copyright ul li a:hover i {
+    background-color: white;
+    border-radius: 30px;
+    padding: 5px;
+    color: black;
+}
+/* description's mobile  for tablet view */
+
+/* view for smaller phones */
+@media screen and (max-width:900px) {
+    * {
+        box-sizing: border-box;
+    }
+    .footer {
+        height: auto;
+        width: 100%;
+        background-image: url(../images/car/carthree.JPG);
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: 20px;
+    }
+
+    .footer hr {
+        background-color: white;
+        border-width: 1px;
+    }
+.footer >div {
+    height: auto;
+    max-width: 100%;
+    margin: 2px;
+    color: white;
+}
+    .footer h1 {
+        text-transform: uppercase;
+        font-size: 10px;
+        color: black;
+        width: 100%;
+    }
+
+    
+
+    .brands .im {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        height: auto;
+        width: 100%;
+    }
+
+    .brands .im img {
+        height: 40px;
+        width: 25%;
+        margin: 5px;
+        border-radius: 40px;
+        margin-top: 10px;
+        padding-top: 10px;
+    }
+
+    .text {
+        color: white;
+        text-align: center;
+    }
+
+    .text ul li {
+        list-style: none;
+        font-size: 15px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding: 12px;
+    }
+
+    /* copyright */
+    .copyright {
+        height: auto;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        bottom: 0px;
+        background-color: black;
+        flex-wrap: wrap;
+    }
+
+    .copyright ul {
+        display: flex;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+
+    .copyright ul li {
+        list-style: none;
+        margin: 15px;
+        height: 50px;
+        width: 50px;
+    }
+
+    .contact ul li {
+        list-style: none;
+        padding: 10px;
+        margin: 4px;
+    }
+
+    .contact ul li a {
+        margin: 4px;
+    }
+
+    i {
+        color: white;
+    }
+    .h{width: 100%;height: auto;}
+    .h .hey{width: 20%;margin-left:200px;}
+
+    .copyright>p {
+        margin: auto;
+        width: 100%;
+        text-align: center;
+        color: white;
+    }
+}
+@media screen and (max-width:678px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    .h {
+        width: 100%;
+        height: auto;
+    }
+
+    #bt {
+        width: 50%;
+        margin: auto;
+    }
+
+    .footer {
+        height: auto;
+        width: 100%;
+        background-image: url(../images/car/carthree.JPG);
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: 20px;
+    }
+
+    .footer hr {
+        background-color: white;
+        border-width: px;
+    }
+
+    .footer h1 {
+        text-transform: uppercase;
+        font-size: 20px;
+        color: black;
+    }
+
+    .footer>div {
+        height: auto;
+        width: 100%;
+        margin: 2px;
+        color: white;
+        /* background-color: red; */
+    }
+
+    .brands .im {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        height: auto;
+    }
+
+    .brands img {
+        height: 60px;
+        width: 25%;
+        margin: 5px;
+        border-radius: 40px;
+        margin-top: 10px;
+        padding-top: 10px;
+    }
+
+    .text {
+        color: white;
+        text-align: center;
+    }
+
+    .text ul li {
+        list-style: none;
+        font-size: 15px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding: 12px;
+    }
+
+    /* copyright */
+    .copyright {
+        height: auto;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        bottom: 0px;
+        background-color: black;
+        flex-wrap: wrap;
+    }
+
+    .copyright ul {
+        display: flex;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+
+    .copyright ul li {
+        list-style: none;
+        margin: 15px;
+        height: 50px;
+        width: 50px;
+    }
+
+    .contact ul li {
+        list-style: none;
+        padding: 10px;
+        margin: 4px;
+    }
+
+    .contact ul li a {
+        margin: 4px;
+    }
+
+    i {
+        color: white
+    }
+
+    .copyright>p {
+        margin: auto;
+        text-align: center;
+        color: white;
+    }
+}
+
+/* view for smaller phones */
+@media screen and (max-width:350px) {
+    * {
+        box-sizing: border-box;
+    }
+    .footer {
+        height: auto;
+        width: 100%;
+        background-image: url(../images/car/carthree.JPG);
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: 20px;
+        overflow: hidden;
+        display: flex;
+        flex-wrap: wrap;
+    }
+.footer > div {
+        height: auto;
+        width: 100%;
+        color: white;
+    }
+    .footer hr {
+        background-color: white;
+        border-width: 1px;
+        width: 100%;
+        text-align: center;
+    }
+    .footer h1 {
+        text-transform: uppercase;
+        font-size: 20px;
+        color: black;
+        text-align: center;
+    }
+.footer .brands{
+    width: 100%;
+    height: auto;
+}
+.footer .text ul li{text-align: center;width: 100%;}
+    .brands .im {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        height: auto;
+    }
+    .brands img {
+        height: 60px;
+        width: 25%;
+        margin: 5px;
+        border-radius: 40px;
+        margin-top: 10px;
+        padding-top: 10px;
+    }
+    .text {
+        color: white;
+        text-align: center;
+    }
+    .text ul li {
+        list-style: none;
+        font-size: 15px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding: 12px;
+    }
+    /* copyright */
+    .copyright {
+        height: auto;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        background-color: black;
+        flex-wrap: wrap;
+    }
+    .copyright ul {
+        display: flex;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    .copyright ul li {
+        list-style: none;
+        margin: 15px;
+        height: 50px;
+        width: 50px;
+    }
+    .contact ul li {
+        list-style: none;
+        padding: 10px;
+        margin: 4px;
+    }
+    .contact ul li a {
+        margin: 4px;
+    }
+    i {
+        color: white
+    }
+    .copyright>p {
+        margin: auto;
+        text-align: center;
+        color: white;
+    }
+}

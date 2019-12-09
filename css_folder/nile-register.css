@@ -1,0 +1,29 @@
+*::before,*::after{
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../images/apply.jpg);
+    background-attachment: fixed;
+    background-position: contain;
+    background-size: cover;
+
+}
+.container{
+    /* transform: translateX(50); */
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius:20%;
+    border: 1px solid black;
+    height: auto;
+    box-shadow: 5px 12px 5px blue;
+
+}
+.jumbotron{
+    border-radius:20%;
+    height: 500px;
+    text-align: center;
+    line-height: 20px;
+/* }
+#btn a{
+    text-align: center;
+} */
